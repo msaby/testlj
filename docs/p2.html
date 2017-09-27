@@ -11,10 +11,10 @@
 
   <meta property="og:title" content="Formation Openrefine" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="<a href="https://msaby.github.io/formation_openrefine_2017_09_28/" class="uri">https://msaby.github.io/formation_openrefine_2017_09_28/</a>" />
+  
   
   <meta property="og:description" content="Formation Openrefine du 28/09/2017, URFIST PACA" />
-  <meta name="github-repo" content="msaby/formation_openrefine_2017_09_28" />
+  
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Formation Openrefine" />
@@ -162,6 +162,15 @@
 <p>Create a new column showing the approximate age at which they died.</p>
 <p>cells.deathdate.value - cells.birthdate.value</p>
 </div>
+<script>
+$(function() {
+ $('a[href^="mailto:"]').each(function() {
+  this.href = this.href.replace('(at)', '@').replace(/\(dot\)/g, '.');
+  // Remove this line if you don't want to set the email address as link text:
+  this.innerHTML = this.href.replace('mailto:', '');
+ });
+});
+</script>
             </section>
 
           </div>

@@ -4,8 +4,6 @@ author: "Mathieu Saby"
 site: bookdown::bookdown_site
 documentclass: book
 link-citations: yes
-github-repo: msaby/formation_openrefine_2017_09_28
-url: 'https://msaby.github.io/formation_openrefine_2017_09_28/'
 description: "Formation Openrefine du 28/09/2017, URFIST PACA"
 output:
   bookdown::gitbook:
@@ -20,8 +18,8 @@ output:
         scroll_highlight: yes
         before: "<p><b>Cliquez sur un niveau pour déployer la table des matières</b></p>"
         after: null
-  includes:
-    after_body: js-perso.html
+    includes:
+      after_body: js-perso.html
 ---
 # Présentation {-}
 Ce mini-site regroupe des supports de formations et de la documentation complémentaire concernant le logiciel [Openrefine](http://openrefine.org).
