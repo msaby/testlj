@@ -1,0 +1,4 @@
+repo: https://github.com/msaby/formation_openrefine_2017_09_28
+output_dir: docs
+rmd_files: ["index.Rmd"]
+book_filename: "formation_openrefine"
